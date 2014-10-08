@@ -109,20 +109,29 @@
 	z-index 10
 
 .boca
-	background transparent
+	-moz-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	-webkit-transition: all 0.2s ease-in-out;
+	background rgb(77, 0, 10)
 	border-bottom 5px solid #000
-	border-radius 50%
+	border-color: rgb(0, 0, 0);
+	border-radius 0 0 100% 100%
 	height 80px
 	left 50px
 	position absolute
-	top 120px
+	top 160px
+	transition: all 0.2s ease-in-out;
 	width 200px
-	z-index 10px
+
+.boca:hover 
+	height 0px
+
 
 .dientes
-	left 65px
-	position relative
-	top 80px
+	left 115px
+	position absolute
+	top 160px
 
 .diente
 	background #fff
@@ -131,7 +140,7 @@
 	height 20px
 	width 20px
 
-.mejilla
+/*.mejilla
 	background transparent
 	border 3px solid #f1592A
 	border-bottom 3px solid transparent
@@ -146,7 +155,7 @@
 
 .mejilla.segunda
 	left 175px
-
+*/
 .camisa
 	background #fff
 	border-top 5px solid #000

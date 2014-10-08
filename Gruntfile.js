@@ -1,5 +1,4 @@
 module.exports = function (grunt) {
-
 	//Project configuration
 	grunt.initConfig({
 		pkg: grunt.file.readJSON('package.json'),
@@ -8,15 +7,15 @@ module.exports = function (grunt) {
 					livereload: true
 				},
 				scripts : {
-                files : ['css/*.styl'],
-                tasks : ['stylus']
-            }
+					files : ['css/*.styl'],
+					tasks : ['stylus']
+            	}
 			},
 
 			express: {
 				all: {
 					options: {
-						hostname: '192.168.2.12',
+						hostname: '192.168.0.45',
 						port: 9000,
 						bases: ['.'],
 						livereload: true
@@ -27,6 +26,10 @@ module.exports = function (grunt) {
 
 			stylus: {
 				compile: {
+					options: {
+						compress: false,
+					},
+
 					files: {
 						'css/styles.css': 'css/styles.styl',
 					}
