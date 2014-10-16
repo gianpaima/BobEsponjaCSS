@@ -1,0 +1,82 @@
+body{background:#009E5E}
+
+.ring{
+  
+  width: 400px;
+  height: 400px;
+  display:block;
+  margin:50px auto;
+ position:relative;
+  overflow:hidden;
+  border: 40px solid  #007447;
+ border-color: #006840  #006840  #007447  #007447;
+  border-radius:100%;
+background:linear-gradient(90deg, #007447 190px, transparent 1px);
+  
+  box-shadow: inset 0 0 0 1px #007447, inset 5px -1px 0 0 rgba(0, 0, 0, .9),inset 0 0 0 90px #fff,inset 0 0 0 130px rgba(0, 116, 71, 1),inset 3px 0 0 130px rgba(0, 0, 0, 1),
+    inset 0 0 0 300px #fff,  3px 1px 0 0 rgba(0, 0, 0, .6), 20px 10px 0 0 rgba(0, 0, 0, .6);
+  
+  -webkit-transform: rotate(45deg) scale(1.1) ;
+-moz-transform: rotate(45deg);
+-o-transform: rotate(45deg);
+-ms-transform: rotate(45deg);
+transform: rotate(45deg);
+  
+}
+
+.ring:after{content:''; width:130px; height:80px; display:block; position:absolute; top:-260px; left:-75px; bottom:0; right:0; margin:auto;  background: #006840;
+  
+  
+  
+  box-shadow:-1px 0 0 0px #007447,  -1px 0 0 0px #007447, 0px -80px 0 0 #E5E5E5,-128px -80px 0 0 #fff,-129px 0 0 0 #007447, -0px 240px 0 0 #006840, 
+    0px 315px 0 0 #E5E5E5,
+    
+    -125px 240px 0 0 #007447,  -125px 315px 0 0 #fff,200px 60px 0 200px rgba(0, 0, 0, .1); z-index:99;
+
+  
+  
+  
+  
+  -webkit-transform: rotate(-45deg);
+-moz-transform: rotate(-45deg);
+-o-transform: rotate(-45deg);
+-ms-transform: rotate(-45deg);
+transform: rotate(-45deg);}
+  
+  .ring:before{content:''; width:150px;height:100px;  display:block; margin: auto; position:absolute;top:0; left:0; bottom:0; right:0;
+  background:transparente; opacity: 1;
+  
+    -webkit-transform: rotate(65deg)  skew(-48deg, 0deg);
+-moz-transform: rotate(65deg)  skew(-48deg, 0deg);
+-o-transform: rotate(65deg)  skew(-48deg, 0deg);
+-ms-transform: rotate(65deg)  skew(-48deg, 0deg);
+  transform: rotate(65deg)  skew(-48deg, 0deg);
+
+
+box-shadow: 294px 39px 0 0 #007447,  -60px -200px 0 0#007447,  -299px -46px 0 0 #007447,
+    59px 198px 0 0 #007447 ;
+
+    }
+
+
+
+
+
+
+
+
+h1{margin:0px auto; text-align:center; font-size:42px; color:#fff;text-transform: uppercase; font-weight:bolder; 
+
+text-shadow:
+    
+    
+    0px 12px 0px #17714E, 0px 10px 0px #17714E, 0px 8px 0px #17714E, 0px 6px 0px #17714E, 0px 4px 0px #17714E, 0px 2px 0px #17714E}
+
+
+a{display:block;margin: 100px auto 20px; text-align:center; width:100%;color: rgba(0, 0,0, .8);font-size:16px; z-index:999; text-decoration:none; font-weight:200}
+
+
+p{width:540px; margin:40px auto 0px ; text-align:right; font-size:18px; color: rgba(0, 0,0, .8); font-weight:400;}
+
+
+  
