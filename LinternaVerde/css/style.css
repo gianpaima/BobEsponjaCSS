@@ -1,26 +1,23 @@
 body{background:#009E5E}
 
 .ring{
-  
-  width: 400px;
-  height: 400px;
-  display:block;
-  margin:50px auto;
- position:relative;
-  overflow:hidden;
-  border: 40px solid  #007447;
- border-color: #006840  #006840  #007447  #007447;
-  border-radius:100%;
-background:linear-gradient(90deg, #007447 190px, transparent 1px);
-  
-  box-shadow: inset 0 0 0 1px #007447, inset 5px -1px 0 0 rgba(0, 0, 0, .9),inset 0 0 0 90px #fff,inset 0 0 0 130px rgba(0, 116, 71, 1),inset 3px 0 0 130px rgba(0, 0, 0, 1),
-    inset 0 0 0 300px #fff,  3px 1px 0 0 rgba(0, 0, 0, .6), 20px 10px 0 0 rgba(0, 0, 0, .6);
-  
+  inset 0 0 0 300px #fff,  3px 1px 0 0 rgba(0, 0, 0, .6), 20px 10px 0 0 rgba(0, 0, 0, .6);
   -webkit-transform: rotate(45deg) scale(1.1) ;
--moz-transform: rotate(45deg);
--o-transform: rotate(45deg);
--ms-transform: rotate(45deg);
-transform: rotate(45deg);
+  border-radius:100%;
+  border: 40px solid  #007447;
+  box-shadow: inset 0 0 0 1px #007447, inset 5px -1px 0 0 rgba(0, 0, 0, .9),inset 0 0 0 90px #fff,inset 0 0 0 130px rgba(0, 116, 71, 1),inset 3px 0 0 130px rgba(0, 0, 0, 1),
+  display:block;
+  height: 400px;
+  margin:50px auto;
+  overflow:hidden;
+  width: 400px;
+  border-color: #006840  #006840  #007447  #007447;
+  position:relative;
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  background:linear-gradient(90deg, #007447 190px, transparent 1px);
+  transform: rotate(45deg);
   
 }
 
@@ -79,4 +76,3 @@ a{display:block;margin: 100px auto 20px; text-align:center; width:100%;color: rg
 p{width:540px; margin:40px auto 0px ; text-align:right; font-size:18px; color: rgba(0, 0,0, .8); font-weight:400;}
 
 
-  
