@@ -5,12 +5,13 @@ body {
 }
 
 #letraa {
-	width: 330px;
-	height: 50px;
-	font-size: 5em;
 	color: white;
 	font-family: Lucida Console, monospace;
+	font-size: 3em;
+	height: 50px;
 	margin: 50px auto;
+	width: 330px;
+	text-align: center;
 }
 
 #rojo1 {

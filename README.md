@@ -1,4 +1,8 @@
-BobEsponjaCSS
+Dibujos HTML5 + CSS3
 =============
 
-Bob Esponja Pantalones Cuadrados en CSS3
+Dibujos HTML5 + CSS3
+
+* Bob Esponja
+* Capitan America
+* Linterna Verde
